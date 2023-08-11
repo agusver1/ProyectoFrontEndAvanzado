@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./assets/imagenes/logo.png">
+        <title>Proyecto-Final</title>
+    </head>
+<body>
+    <header>
+        <a href="./index.html">
+            <svg width="200" height="80" class="animarLogo">
+                <rect x="45" y="5" width="60" height="35" rx="5" fill="#F0E9D2"/>
+                <rect x="50" y="10" width="50" height="25" rx="5" fill="#495579"/>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#F0E9D2"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#495579"></polygon>
+            </svg>
+        </a>
+        <ul class="menuBotonesHeader">
+            <li>
+                <a href="./historia.html" class="itemMenu">HISTORIA</a>
+            </li>
+            <li>
+                <a href="./juegos.html" class="itemMenu">JUGUEMOS</a>
+            </li>
+        </ul>
+    </header>
+    <section class="titulos">
+        <h1 class="tituloPrincipal">JUGUEMOS UN POCO</h1>
+    </section>
+    <main>
+        <h2 class="textoIntro">Un breve video para complementar lo visto</h2>
+        <section class="juego">
+            <div class="cajas">
+                <div class="caja">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+                <div class="caja">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+                <div class="caja">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+            </div>
+            <div class="cajaImagenes">
+                <img src="./assets/imagenes/rompe2.png" alt="Imagen Rompecabezas" id="imagenCaja1" class="imagenCaja">
+                <img src="./assets/imagenes/rompe1.png" alt="Imagen Rompecabezas" id="imagenCaja2" class="imagenCaja">
+                <img src="./assets/imagenes/rompe3.png" alt="Imagen Rompecabezas" id="imagenCaja3" class="imagenCaja">
+            </div>
+        </section>
+        <button class="botonVideo reiniciar">Reiniciar</button>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
